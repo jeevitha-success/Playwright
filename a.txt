@@ -1,3 +1,78 @@
 This is my first commit
 
 This is my second commit
+
+
+This is myyyyyyy second commit
+
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git init
+Reinitialized existing Git repository in C:/Users/Jeevitha T/OneDrive/Desktop/New folder/PlaywrightProject/.git/
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git add .
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git commit -m "initial commit"
+[master c5e3967] initial commit
+ 4 files changed, 38 insertions(+)
+ create mode 100644 a.txt
+ create mode 100644 dynamicXpath.spec.js
+ create mode 100644 g.txt
+ create mode 100644 tests/Exam/exam.spec.js
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git checkout -b first
+Switched to a new branch 'first'
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git branch
+* first
+  master
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git add .
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git add .      
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git commit -m "commit2"
+[first e25b299] commit2
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git branch
+* first
+  master
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git switch master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git checkout -b second 
+Switched to a new branch 'second'
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git branch
+  first
+  master
+* second
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git add .
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git commit -m "initial commit2"
+[second 215ddc4] initial commit2
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git switch master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git merge first
+Updating c5e3967..e25b299
+Fast-forward
+ a.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>git merge second
+Auto-merging a.txt
+CONFLICT (content): Merge conflict in a.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\Jeevitha T\OneDrive\Desktop\New folder\PlaywrightProject>  
