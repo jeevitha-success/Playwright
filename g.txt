@@ -1,0 +1,6 @@
+git init 
+git config --global user.email "jeevithatilak@gmail.com"
+git add .
+git commit -m "Commit1"
+git remote add origin https://github.com/jeevitha-success/Playwright.git -only for 1st time
+git push -u origin master
